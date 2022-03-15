@@ -1,37 +1,58 @@
 *{
     box-sizing: border-box;
 }
+/********************HEADER*************************/
+
 #logo {
     vertical-align: middle;
     height: 70px;
+
 }
 
+
 #logo-contenitore{
+    background-color: rgb(255, 255, 255);
     height: 70px;
     line-height: 70px;
     font-size: 35px;
     font-family: 'arial', Courier, monospace;
 }
-#contenitore-bottone{
+/**************************MAIN********************************/
+.pagina{
     
     width: 50%;
     margin: 5% auto;
+    background-color: rgb(255, 255, 255);
 
 }
 .bottone{
-    border-width: 2px 3px;
+    border-width: 1px 1px;
     border-style: solid;
-   border-radius: 10px;
-    padding: 3px;
+   border-radius: 6px;
+    padding: 5px;
 }
 .allowed{
     background-color: rgb(0, 119, 255);
-    color: white;
-    font-style:italic;
+    color: rgb(255, 255, 255);
+    
     
 }
-
 .not-allowed{
     color:rgb(156, 154, 154);
     font-style: italic;
+}
+/**************************cose fatte/ cose non fatte********************************/
+.check{
+    width: 6px;
+    height: 6px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+}
+.not-check{
+    width: 6px;
+    height: 6px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
 }
