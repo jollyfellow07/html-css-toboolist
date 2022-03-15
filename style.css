@@ -70,7 +70,7 @@
 vertical-align: middle;
 line-height: 20px;
 }
-/**************************rettangoli della fine della checklist*******************************/
+/**************************rettangoli*******************************/
 .editorial{
     display: inline-block;
     border: 1px solid blue;
@@ -80,5 +80,60 @@ line-height: 20px;
     height: 20px;
     text-align: center;
     border-radius: 5px;
+    font-size: small;
 }
-
+.Q1{
+    display: inline-block;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
+.rec{
+    display: inline-block;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
+.mobile{
+    display: inline-block;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
+.web{
+    display: inline-block;
+    border: 1px solid rgb(206, 87, 127);
+    background-color: rgb(206, 87, 127);
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
+.sales{
+    display: inline-block;
+    border: 1px solid rgb(75, 172, 80);
+    background-color: rgb(75, 172, 80);
+    color: white;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: small;
+}
