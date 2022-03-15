@@ -5,25 +5,28 @@
 
 #logo {
     vertical-align: middle;
-    height: 70px;
+    height: 65px;
 
 }
 
 
 #logo-contenitore{
     background-color: rgb(255, 255, 255);
-    height: 70px;
-    line-height: 70px;
+    line-height: 65px;
     font-size: 35px;
     font-family: 'arial', Courier, monospace;
+    
 }
 /**************************MAIN********************************/
+body{
+    background-color: rgb(199, 199, 199);
+}
 .pagina{
     
     width: 50%;
-    margin: 5% auto;
+    margin: 2% auto;
     background-color: rgb(255, 255, 255);
-
+    padding: 30px;
 }
 .bottone{
     border-width: 1px 1px;
@@ -31,6 +34,7 @@
    border-radius: 6px;
     padding: 5px;
 }
+/**************************bottoni selezionati/non selezionati********************************/
 .allowed{
     background-color: rgb(0, 119, 255);
     color: rgb(255, 255, 255);
