@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #logo {
     vertical-align: middle;
     height: 70px;
@@ -6,4 +9,29 @@
 #logo-contenitore{
     height: 70px;
     line-height: 70px;
+    font-size: 35px;
+    font-family: 'arial', Courier, monospace;
+}
+#contenitore-bottone{
+    
+    width: 50%;
+    margin: 5% auto;
+
+}
+.bottone{
+    border-width: 2px 3px;
+    border-style: solid;
+   border-radius: 10px;
+    padding: 3px;
+}
+.allowed{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-style:italic;
+    
+}
+
+.not-allowed{
+    color:rgb(156, 154, 154);
+    font-style: italic;
 }
